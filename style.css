@@ -25,3 +25,19 @@ ul{
     font-family: "Manrope";
 }
 
+div{
+    background-color: white;
+
+}
+
+div a{
+    color: #242424;
+}
+
+body{
+    background-color: #1F2039;
+}
+
+p , h2 , ul{
+    color: #F9F8FF;
+}
