@@ -1,7 +1,27 @@
 a {
     color: black;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Manrope";
 }
 
 .important{
     color: #A5B4FC;
 }
+
+h1{
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: "Montserrat";
+}
+
+p{
+    font-size: 1.1em;
+    font-family: "Manrope";
+}
+
+ul{
+    font-size: 1em;
+    font-family: "Manrope";
+}
+
