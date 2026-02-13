@@ -1,63 +1,60 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
 a {
-    color: black;
-    text-decoration: none;
-    font-size: 1em;
-    font-family: "Manrope";
+  color: #242424;
+  text-decoration: none;
 }
 
-.important{
-    color: #A5B4FC;
+em {
+  color: #a5b4fc;
+  font-style: normal;
 }
 
-h1{
-    font-size: 3.5em;
-    color: #A5B4FC;
-    font-family: "Montserrat";
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
 }
 
-p{
-    font-size: 1.1em;
-    font-family: "Manrope";
+h2 {
+  color: #f9f8ff;
 }
 
-ul{
-    font-size: 1em;
-    font-family: "Manrope";
+p,
+li {
+  font-size: 1.1em;
+  color: #f9f8ff;
 }
 
-.divhaut, .divbas{
-    background-color: white;
-
+header,
+footer {
+  background-color: white;
 }
 
-div a{
-    color: #242424;
-}
-
-body{
-    background-color: #1F2039;
-}
-
-p , h2 , ul{
-    color: #F9F8FF;
-}
-
-.cta{
+.cta {
   background: linear-gradient(#8e86b5, #acaeed);
-  font-family: "Manrope";
   color: white;
   border-radius: 50px;
 }
 
-.cta:hover{
-    background: linear-gradient(#696484,#8788BA);
+a:hover {
+  text-decoration: underline;
 }
 
-.paracomp-box{
-    border-left: 1px solid #8e86b5;
-    border-bottom: 1px solid #8e86b5;
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
 }
 
-.divhaut:hover,.divbas:hover{
-    opacity: 0.5;
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
 }
