@@ -25,7 +25,7 @@ ul{
     font-family: "Manrope";
 }
 
-div{
+.divhaut, .divbas{
     background-color: white;
 
 }
@@ -46,4 +46,10 @@ p , h2 , ul{
   background: linear-gradient(#8e86b5, #acaeed);
   font-family: "Manrope";
   color: white;
+  border-radius: 50px;
+}
+
+.paracomp-box{
+    border-left: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
 }
