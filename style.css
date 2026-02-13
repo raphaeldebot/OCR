@@ -41,3 +41,9 @@ body{
 p , h2 , ul{
     color: #F9F8FF;
 }
+
+.cta{
+  background: linear-gradient(#8e86b5, #acaeed);
+  font-family: "Manrope";
+  color: white;
+}
