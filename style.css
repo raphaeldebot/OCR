@@ -49,7 +49,15 @@ p , h2 , ul{
   border-radius: 50px;
 }
 
+.cta:hover{
+    background: linear-gradient(#696484,#8788BA);
+}
+
 .paracomp-box{
     border-left: 1px solid #8e86b5;
     border-bottom: 1px solid #8e86b5;
+}
+
+.divhaut:hover,.divbas:hover{
+    opacity: 0.5;
 }
